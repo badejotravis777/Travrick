@@ -14,7 +14,7 @@ export default function ProfileDetailsScreen({ navigation }) {
       {/* Profile Image */}
       <View style={styles.profileImageContainer}>
         <Image
-          source={require("../../assets/profileImage.png")}
+          source={require("../../assets/profileIcon.png")}
           style={styles.profileImage}
         />
         <TouchableOpacity style={styles.addPictureButton}>
